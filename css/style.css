@@ -140,7 +140,7 @@ a {
 }
 
 /* meassage section goes here */
-.search {
+.search_wrapper {
     margin: 10px;
     border: 1px solid var(--primaryColor);
 }
@@ -185,7 +185,30 @@ a {
     align-self: center;
     cursor: pointer;
 }
+.item_input .header_btn1 {
+    color: #000;
+    border: 1px solid;
+    width: 150px;
+    position: relative;
+}
 
+.item_input .header_btn2 {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    background: var(--primaryColor);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.item_input .header_btn2 span {
+    border-bottom: 1px solid #ddd;
+}
+
+.item_input .header_btn2 span:last-child {
+    border: 0;
+}
 .new_noti {
     text-align: center;
     padding: 10px 0px;
@@ -195,7 +218,9 @@ a {
     font-weight: 600;
     color: #fff;
 }
-
+.new_noti.search_noti {
+    background: #96c963;
+}
 .message_section p span {
     margin-left: 5px;
 }

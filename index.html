@@ -35,10 +35,10 @@
                         </div>
                     </div>
                     <div class="col-lg-2">
-                        <div class="header_btn1">
+                        <div class="header_btn1 btn_head">
                             <span class="header_btn1_text">Alejandro <i class="fa fa-chevron-down"
                                     aria-hidden="true"></i></span>
-                            <div class="header_btn2">
+                            <div class="header_btn2 side_btn_head">
                                 <span>
                                     <i class="fas fa-sign-out-alt"></i>
                                     Log out</span>
@@ -78,7 +78,7 @@
                                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                             <a class="nav-link active" id="nav-message_btn" data-bs-toggle="tab"
                                                 href="#nav-message" type="button" role="tab" aria-controls="nav-message"
-                                                aria-selected="true"><i class="far fa-envelope"></i></i>Message</a>
+                                                aria-selected="true"><i class="far fa-envelope"></i>Message</a>
                                             <a class="nav-link" id="nav-search_btn" data-bs-toggle="tab"
                                                 href="#nav-search" type="button" role="tab" aria-controls="nav-search"
                                                 aria-selected="false"><i class="fas fa-search"></i>search</a>
@@ -727,7 +727,7 @@
                                         <div class="tab-pane fade show active" id="nav-search" role="tabpanel"
                                             aria-labelledby="nav-search_btn">
                                             <!-- Search section content here -->
-                                            <section class="search">
+                                            <section class="search_wrapper">
                                                 <div class="search_content">
                                                     <div class="new_noti">
                                                         <p>Set Perameters</p>
@@ -741,8 +741,16 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-lg-6">
-                                                                    <div class="item_input">
-                                                                        <input type="text">
+                                                                    <div class="item_input ">
+                                                                        <div class="header_btn1 item_input1">
+                                                                            <span class="header_btn1_text">Select <i
+                                                                                    class="fa fa-chevron-down"
+                                                                                    aria-hidden="true"></i></span>
+                                                                            <div class="header_btn2 side_btn_search1">
+                                                                                <span class="d-block">Patient</span>
+                                                                                <span class="d-block">Caregiver</span>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -827,8 +835,17 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-lg-6">
-                                                                    <div class="item_input text-end">
-                                                                        <input type="text">
+                                                                    <div class="item_input  text-end">
+                                                                        <div class="header_btn1 item_input2">
+                                                                            <span class="header_btn1_text">None <i
+                                                                                    class="fa fa-chevron-down"
+                                                                                    aria-hidden="true"></i></span>
+                                                                            <div class="header_btn2 side_btn_search2">
+                                                                                <span class="d-block">Narsing</span>
+                                                                                <span class="d-block">Coadination</span>
+                                                                                <span class="d-block">Intake</span>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -897,7 +914,7 @@
                                                 </div>
                                                 <div class="section_wrapper">
                                                     <section class="message_section">
-                                                        <div class="new_noti">
+                                                        <div class="new_noti search_noti">
                                                             <p>Search Result</p>
                                                         </div>
                                                         <div class="patient_call">
@@ -1500,7 +1517,7 @@
                         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                             Contacts</div>
                         <div class="tab-pane fade" id="nav-user" role="tabpanel" aria-labelledby="nav-user_btn">
-                            Reports</div>
+                            Users</div>
                         <!-- <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                             ...</div> -->
                     </div>
