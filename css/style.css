@@ -40,7 +40,10 @@ a {
     cursor: pointer;
     border-radius: 5px;
 }
-
+.header_btn1_text {
+    padding: 05px 0px;
+    display: inline-block;
+}
 .header_btn1 span>i {
     padding-left: 10px;
     font-size: 12px;
