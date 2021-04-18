@@ -9,6 +9,7 @@
 body {
     font-family: 'Open Sans',
         sans-serif;
+    background: #f4f4f4;
 }
 
 p,
@@ -24,10 +25,23 @@ a {
     padding: 0;
 }
 
+button:focus,
+button:hover,
+input:focus,
+a:focus,
+button,
+input,
+a {
+    outline: 0;
+    border: 0;
+    box-shadow: 0;
+}
+
 /* header section css goes here */
 .header_section {
     background: var(--primaryColor);
     padding: 10px 0px;
+    margin-bottom: 10px;
 }
 
 .header_p2 {
@@ -57,4 +71,130 @@ a {
 .header_btn2 span>i {
     padding-left: 0px;
     padding-right: 10px;
+}
+/* Inbox table content */
+
+.table1_wrapper .table_btn_wrapper {
+    background: var(--primaryColor);
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+
+.table1_wrapper .nav-tabs {
+    border: 0;
+}
+
+.table1_wrapper .table_btn_wrapper .nav-link {
+    padding: 5px 10px;
+    font-weight: 700;
+    color: #555;
+    width: 200px;
+    background: #96c963;
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.table1_wrapper .table_btn_wrapper .nav-link,
+.table1_wrapper .table_btn_wrapper .nav-link:hover {
+    border: 0;
+    outline: 0;
+}
+
+.table1_wrapper .table_btn_wrapper .nav-link.active {
+    background: #ffffff;
+
+}
+
+.table1_wrapper .table_btn_wrapper .nav-link i {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.table1_wrapper .tabs_child_wrapper {
+    margin: 10px;
+    border: 1px solid var(--primaryColor);
+}
+
+/* update section */
+.update_section {
+    padding: 20px;
+}
+
+.update_section button {
+    background: #eaeaea;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.update_section i {
+    margin-right: 5px;
+}
+
+/* meassage section goes here */
+.message_section .new_noti {
+    text-align: center;
+    padding: 10px 0px;
+    background: var(--primaryColor);
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.message_section p span {
+    margin-left: 5px;
+}
+
+.call_details {
+    padding: 15px;
+}
+
+.message_section .table_head p {
+    border-right: 1px solid #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.message_section .td_rwap.d-flex {
+    font-size: 14px;
+    display: in;
+    border-right: 1px solid #000;
+}
+
+.message_section .td_fast {
+    width: 70px;
+    text-align: end;
+    color: #ce003f;
+    font-weight: 700;
+}
+
+.message_section .td-last {
+    margin-left: 10px;
+}
+
+.message_section td {
+    padding: 10px 0px;
+}
+
+.message_section .call_info p:first-child {
+    width: 10%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.message_section .call_info p:last-child {
+    font-size: 14px;
+    line-height: 24px;
+    width: 80%;
 }

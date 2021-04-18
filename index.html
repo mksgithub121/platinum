@@ -26,15 +26,11 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-lg-1">
                         <div class="logo">
-                           <a href="#"> <img src="images/plat-left.png" alt="Logo" class="w-100 img-fluid"></a>
+                            <a href="#"> <img src="images/plat-left.png" alt="Logo" class="w-100 img-fluid"></a>
                         </div>
                     </div>
                     <div class="col-lg-9">
                         <div class="header_p2">
-                            <!-- <h1><span>After hours</span><i class="far fa-clock"></i><span>Message
-                                    center</span></h1>
-                            <h1><img src="images/Screenshot-20210418174603-23x27.png" alt=""><span>Administrator
-                                    portal</span></h1> -->
                             <img src="images/header_img.png" alt="Header img" class="w-100 img-fluid">
                         </div>
                     </div>
@@ -54,31 +50,167 @@
         </header>
 
         <!-- Content section goes here -->
-        <section class="table1_wrapper">
+        <section class="table1_wrapper ">
             <div class="container">
-                <div class="table_content">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                                type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                                type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                                type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            profile-1
+                <!-- tabs main button -->
+                <div class="table_content bg-white">
+                    <div class="table_btn_wrapper">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-link active" id="nav-inbox_btn" data-bs-toggle="tab" href="#nav-inbox"
+                                type="button" role="tab" aria-controls="nav-inbox" aria-selected="true"><i
+                                    class="fas fa-inbox"></i>Inbox</a>
+                            <a class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" href="#nav-contact"
+                                type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><i
+                                    class="far fa-address-book"></i>Contacts</a>
+                            <a class="nav-link" id="nav-user_btn" data-bs-toggle="tab" href="#nav-user" type="button"
+                                role="tab" aria-controls="nav-user" aria-selected="false"><i
+                                    class="fas fa-users"></i>User</a>
                         </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">profile 2
+                    </div>
+                    <!-- tabs main content -->
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-inbox" role="tabpanel"
+                            aria-labelledby="nav-inbox_btn">
+                            <!-- tabs child content -->
+                            <div class="tabs_child_wrapper">
+                                <div class="table_content bg-white">
+                                    <div class="table_btn_wrapper">
+                                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                            <a class="nav-link active" id="nav-message_btn" data-bs-toggle="tab"
+                                                href="#nav-message" type="button" role="tab" aria-controls="nav-message"
+                                                aria-selected="true"><i class="far fa-envelope"></i></i>Message</a>
+                                            <a class="nav-link" id="nav-search_btn" data-bs-toggle="tab"
+                                                href="#nav-search" type="button" role="tab" aria-controls="nav-search"
+                                                aria-selected="false"><i class="fas fa-search"></i>search</a>
+                                            <a class="nav-link" id="nav-reports_btn" data-bs-toggle="tab"
+                                                href="#nav-reports" type="button" role="tab" aria-controls="nav-reports"
+                                                aria-selected="false"><i class="fas fa-file-contract"></i>Reports</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="nav-message" role="tabpanel"
+                                            aria-labelledby="nav-message_btn">
+                                            <section class="update_section text-end">
+                                                <button class="update"><i class="fas fa-sync-alt"></i>Update</button>
+                                            </section>
+                                            <section class="message_section">
+                                                <div class="new_noti">
+                                                    <p>New message : <span>10</span></p>
+                                                </div>
+                                                <div class="patient_call">
+                                                    <div class="head"></div>
+                                                    <div class="from"></div>
+                                                    <div class="to"></div>
+                                                    <div class="call_details">
+                                                        <table class="table table-striped table-responsive">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th scope="row" class="table_head">
+                                                                        <p>Patient info</p>
+                                                                    </th>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex">
+                                                                            <div class="td_fast">Fast :</div>
+                                                                            <div class="td-last">Elon</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex">
+                                                                            <div class="td_fast">Last :</div>
+                                                                            <div class="td-last">Musk</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex">
+                                                                            <div class="td_fast">PLH ID :</div>
+                                                                            <div class="td-last">123789</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex">
+                                                                            <div class="td_fast">Phone :</div>
+                                                                            <div class="td-last">555-444-3210</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex border-0">
+                                                                            <div class="td_fast">Caller Id:</div>
+                                                                            <div class="td-last">555-333-0987</div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row" class="table_head">
+                                                                        <p>Caller info</p>
+                                                                    </th>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex">
+                                                                            <div class="td_fast">Fast :</div>
+                                                                            <div class="td-last">Jeff</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex">
+                                                                            <div class="td_fast">Last :</div>
+                                                                            <div class="td-last">Bezos</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td colspan="3">
+                                                                        <div class="td_rwap d-flex border-0">
+                                                                            <div class="td_fast text-left">Phone :</div>
+                                                                            <div class="td-last">555-321-5544</div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row" class="table_head">
+                                                                        <p>Message info</p>
+                                                                    </th>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex">
+                                                                            <div class="td_fast">Esc : </div>
+                                                                            <div class="td-last">Level 3</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="td_rwap d-flex">
+                                                                            <div class="td_fast">Contact : </div>
+                                                                            <div class="td-last">Victor</div>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td colspan="3">
+                                                                        <div class="td_rwap d-flex border-0">
+                                                                            <div class="td_fast">Dept :</div>
+                                                                            <div class="td-last">Intake</div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="call_info">
+                                                        <p>Call Info :</p>
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                            Porro ipsum commodi repudiandae quisquam non corporis nulla
+                                                            a dicta rem voluptate?</p>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="tab-pane fade show active" id="nav-search" role="tabpanel"
+                                            aria-labelledby="nav-search_btn">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">profile 3
-                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            Contacts</div>
+                        <div class="tab-pane fade" id="nav-user" role="tabpanel" aria-labelledby="nav-user_btn">
+                            Reports</div>
+                        <!-- <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            ...</div> -->
                     </div>
                 </div>
             </div>
