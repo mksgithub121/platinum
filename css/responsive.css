@@ -2,13 +2,341 @@
 @media (min-width: 1200px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .item_name {
+        width: 110%;
+    }
+
+    .item_input input {
+        width: 115px;
+    }
+
+    .item_input .header_btn1 {
+        width: 115px;
+    }
+
+    .search_btn {
+        width: 120px;
+    }
+
+    .call_details {
+        overflow-X: s;
+        overflow-x: scroll;
+    }
+
+    .message_section .table_head p {
+        padding-right: 10px;
+        width: 134px;
+    }
+
+    .message_section .td-last {
+        padding-right: 10px;
+        width: 100px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo img {
+        width: 70px !important;
+        margin: auto;
+        display: block;
+    }
+
+    .table1_wrapper .table_btn_wrapper .nav-link {
+        margin: auto;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        margin-bottom: 10px;
+        text-align-last: left;
+    }
+
+    .table1_wrapper .tabs_child_wrapper {
+        margin: 0px;
+        border: 0px solid var(--primaryColor);
+        margin-top: 10px;
+    }
+
+    .update_section {
+        text-align: center !important;
+    }
+
+    .message_section .head {
+        display: block !important;
+        text-align: center;
+    }
+
+    .message_section .text-2 {
+        width: 100%;
+    }
+
+    .message_section .call_info h3 {
+        width: 26%;
+    }
+
+    .message_section .call_info {
+        overflow-x: scroll;
+    }
+
+    .call_details {
+        overflow-x: scroll;
+        margin-top: 15px;
+    }
+
+    .message_section .table_head p {
+        padding-right: 10px;
+        width: 134px;
+        font-size: 14px;
+    }
+
+    .message_section .td-last {
+        padding-right: 10px;
+        width: 100px;
+    }
+
+    .message_section .call_info.call_info_full .d-flex {
+        display: block !important;
+        text-align: center;
+    }
+
+    .message_section .call_info.call_info_full h3 {
+        width: 100%;
+    }
+
+    .message_section .call_info.call_info_full p {
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .update_section.update_section_center button {
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .item_name.text-end {
+        text-align: center !important;
+    }
+
+    .item_input {
+        text-align: center !important;
+        margin-top: 05px;
+    }
+
+    .search_btn {
+        margin: auto;
+        margin-top: 20px;
+        width: max-content;
+    }
+
+    .item_input .header_btn1 {
+        margin: auto;
+    }
+}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo img {
+        width: 70px !important;
+        margin: auto;
+        display: block;
+    }
+
+    .table1_wrapper .table_btn_wrapper .nav-link {
+        margin: auto;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        margin-bottom: 10px;
+        text-align-last: left;
+    }
+
+    .table1_wrapper .tabs_child_wrapper {
+        margin: 0px;
+        border: 0px solid var(--primaryColor);
+        margin-top: 10px;
+    }
+
+    .update_section {
+        text-align: center !important;
+    }
+
+    .message_section .head {
+        display: block !important;
+        text-align: center;
+    }
+
+    .message_section .text-2 {
+        width: 100%;
+    }
+
+    .message_section .call_info h3 {
+        width: 26%;
+    }
+
+    .message_section .call_info {
+        overflow-x: scroll;
+    }
+
+    .call_details {
+        overflow-x: scroll;
+        margin-top: 15px;
+    }
+
+    .message_section .table_head p {
+        padding-right: 10px;
+        width: 134px;
+        font-size: 14px;
+    }
+
+    .message_section .td-last {
+        padding-right: 10px;
+        width: 100px;
+    }
+
+    .message_section .call_info.call_info_full .d-flex {
+        display: block !important;
+        text-align: center;
+    }
+
+    .message_section .call_info.call_info_full h3 {
+        width: 100%;
+    }
+
+    .message_section .call_info.call_info_full p {
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .update_section.update_section_center button {
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .item_name.text-end {
+        text-align: center !important;
+    }
+
+    .item_input {
+        text-align: center !important;
+        margin-top: 05px;
+    }
+
+    .search_btn {
+        margin: auto;
+        margin-top: 20px;
+        width: max-content;
+    }
+
+    .item_input .header_btn1 {
+        margin: auto;
+    }
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .logo img {
+        width: 70px !important;
+        margin: auto;
+        display: block;
+    }
+
+    .table1_wrapper .table_btn_wrapper .nav-link {
+        margin: auto;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        margin-bottom: 10px;
+        text-align-last: left;
+    }
+
+    .table1_wrapper .tabs_child_wrapper {
+        margin: 0px;
+        border: 0px solid var(--primaryColor);
+        margin-top: 10px;
+    }
+
+    .update_section {
+        text-align: center !important;
+    }
+
+    .message_section .head {
+        display: block !important;
+        text-align: center;
+    }
+
+    .message_section .text-2 {
+        width: 100%;
+    }
+
+    .message_section .call_info h3 {
+        width: 26%;
+    }
+
+    .message_section .call_info {
+        overflow-x: scroll;
+    }
+
+    .call_details {
+        overflow-x: scroll;
+        margin-top: 15px;
+    }
+
+    .message_section .table_head p {
+        padding-right: 10px;
+        width: 134px;
+        font-size: 14px;
+    }
+
+    .message_section .td-last {
+        padding-right: 10px;
+        width: 100px;
+    }
+
+    .message_section .call_info.call_info_full .d-flex {
+        display: block !important;
+        text-align: center;
+    }
+
+    .message_section .call_info.call_info_full h3 {
+        width: 100%;
+    }
+
+    .message_section .call_info.call_info_full p {
+        padding-left: 0px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .update_section.update_section_center button {
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .item_name.text-end {
+        text-align: center !important;
+    }
+
+    .item_input {
+        text-align: center !important;
+        margin-top: 05px;
+    }
+
+    .search_btn {
+        margin: auto;
+        margin-top: 20px;
+        width: max-content;
+    }
+
+    .item_input .header_btn1 {
+        margin: auto;
+    }
+}
