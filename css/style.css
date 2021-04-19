@@ -167,7 +167,12 @@ a {
     border-radius: 3px;
     width: 150px;
 }
-
+.item_input select {
+    background: transparent;
+    padding: 5px 30px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
 .search_btn {
     width: 150px;
     display: flex;
