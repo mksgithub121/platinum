@@ -74,7 +74,11 @@ a {
     padding-right: 10px;
 }
 /* Inbox table content */
-
+.section_wrapper {
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 .table1_wrapper .table_btn_wrapper {
     background: var(--primaryColor);
     padding: 0px 10px;
